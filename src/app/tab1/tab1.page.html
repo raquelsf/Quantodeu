@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar [color]="primary">
+    <ion-title>
+      Receitas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!--    <ion-card class="welcome-card">
+      <ion-img src="/assets/shapes.svg"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Get Started</ion-card-subtitle>
+        <ion-card-title>Welcome to Ionic</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
+      </ion-card-content>
+    </ion-card>-->
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <ion-img src="/assets/icon.png"></ion-img>
+      <p>Palha Italiana</p>
+    </ion-slide>
+    <ion-slide>
+      <h1>Slide 2</h1>
+      <ion-img src="/assets/shapes.svg"></ion-img>
+    </ion-slide>
+    <ion-slide>
+      <h1>Slide 3</h1>
+      <ion-img src="/assets/shapes.svg"></ion-img>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
