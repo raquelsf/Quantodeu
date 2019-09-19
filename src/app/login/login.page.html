@@ -1,0 +1,31 @@
+<!--<ion-header>-->
+<!--  <ion-toolbar>-->
+<!--    <ion-title>login</ion-title>-->
+<!--  </ion-toolbar>-->
+<!--</ion-header>-->
+
+<!--<ion-content>-->
+<div class="row header">
+
+</div>
+<div class="row body">
+    <p style="text-align: center; color: #ffffff">Entrar</p>
+
+    <form #form="ngForm" (ngSubmit)="logForm(form)" novalidate>
+        <ion-list>
+            <ion-item>
+                <ion-label>
+                    <ion-icon name="ios-person-outline"></ion-icon>
+                </ion-label>
+                <ion-input type="text" placeholder="Username" ></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label><ion-icon name="ios-lock-outline" item-left></ion-icon></ion-label>
+                <ion-input type="password" placeholder="Password" ></ion-input>
+            </ion-item>
+        </ion-list>
+        <ion-button expand="block" class="shadow-red" type="submit">Login</ion-button>
+    </form>
+</div>
+
+<!--</ion-content>-->
